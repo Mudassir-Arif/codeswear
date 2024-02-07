@@ -20,7 +20,12 @@ var CloseCart = document.getElementsByClassName("CloseCart")[0];
 // cartMenu.style.display = "none";
 
 cart.addEventListener("click" , function(){
-    cartMenu.style.transform = 'translateX(78.7vw)';;
+    if(screen.width >= 900 ){
+        cartMenu.style.transform = 'translateX(78.7vw)';
+    }
+    else{
+        cartMenu.style.transform = 'translateX(50.7vw)';
+    }
 })
 
 CloseCart.addEventListener("click" , function(){
