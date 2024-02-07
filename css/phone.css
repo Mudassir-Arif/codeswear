@@ -1,6 +1,7 @@
 
 @media only screen and  (max-width : 900px){
-    body{
+    .bapcontainer{
+        /* width:100vw; */
         overflow-x: hidden;
     }
 
@@ -25,7 +26,8 @@
 
 @media only screen and  (max-width : 840px){
 
-    body{
+    .bapcontainer{
+        /* width:100vw; */
         overflow-x: hidden;
     }
 
