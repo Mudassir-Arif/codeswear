@@ -1,0 +1,132 @@
+
+@media only screen and  (max-width : 900px){
+    body{
+        overflow-x: hidden;
+    }
+
+    .main-cards{
+        display: grid;
+        grid-template-columns: auto auto ;
+        grid-row-gap: 20px;
+    }
+    .cartMenu{
+        background-color: #f9c9df;
+        color: white;
+        width: 50vw;
+        height: 100vh;
+        position: absolute;
+        top: 0%;
+        transform: translateX(100%);
+        transition: transform 1s ease 0s;
+
+    }
+}
+
+
+@media only screen and  (max-width : 840px){
+
+    body{
+        overflow-x: hidden;
+    }
+
+
+    .logo h1 {
+        display: flex;
+    }
+
+    .nav-items{
+        display: none;
+    }
+
+    .openMenu{
+        display: block;
+    }
+
+    .mblMenu{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mbl-nav-items{
+        list-style: none;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    .mbl-nav-items li a{
+        text-decoration: none;
+        color: #ed64a6;
+        font-size: 22px;
+       
+    }
+
+    .closeMenu {
+        color: #ed64a6;
+        position: absolute;
+        top: 20px;
+        right: 30px;
+    }
+
+    .banner img {
+        width: 100%;
+        height: 45vh;
+    }
+
+    .cards{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+     }
+
+     .card{
+        width: 100%;
+     }
+
+    .footer{
+        height: 350PX;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer-right{
+        display: none;
+    }
+    .footer-left p{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .footer-bottom{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .f-icons{
+        margin: 4px 0px;
+        display: flex;
+    }
+
+    .main-cards{
+        margin-left: 16px;
+        grid-template-columns: auto ;
+        
+    }
+
+    .cartMenu{
+        background-color: #f9c9df;
+        color: white;
+        width: 50vw;
+        height: 100vh;
+        position: absolute;
+        top: 0%;
+        transform: translateX(100vw);
+        transition: transform 1s ease 0s;
+
+    }
+}
+
